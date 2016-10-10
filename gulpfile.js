@@ -19,7 +19,7 @@ gulp.task('default', ['html', 'css']);
 // HTML transformation
 gulp.task('html', function() {
     return gulp.src(sourceDirectory + '/**/*.pug')
-        .pipe(pug())
+        .pipe(pug({ pretty: true }))
         .pipe(gulp.dest(outputDirectory));
 });
 
