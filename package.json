@@ -1,18 +1,22 @@
 {
-  "name": "static-mockup-template",
-  "version": "0.0.1",
-  "description": "Template for pug static mockup webpage",
-  "main": "run.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "phreme",
-  "license": "MIT",
-  "devDependencies": {
-    "del": "^2.2.2",
-    "gulp": "^3.9.1",
-    "gulp-pug": "^3.1.0",
-    "gulp-sass": "^2.3.2",
-    "pug": "^2.0.0-beta6"
-  }
+    "name": "static-mockup-template",
+    "version": "0.0.1",
+    "description": "Template for pug static mockup webpage",
+    "main": "run.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "phreme",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/phreme/static-mockup-template/"
+    },
+    "devDependencies": {
+        "del": "^2.2.2",
+        "gulp": "^3.9.1",
+        "gulp-pug": "^3.1.0",
+        "gulp-sass": "^2.3.2",
+        "pug": "^2.0.0-beta6"
+    }
 }
